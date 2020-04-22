@@ -45,8 +45,6 @@ function process() {
     generatedPassword.length
   );
 
-  console.log(generatedPassword.length);
-
   generatedPassword = generatedPassword.join("");
 
   return generatedPassword;
