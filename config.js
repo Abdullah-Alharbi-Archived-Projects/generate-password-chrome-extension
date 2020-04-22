@@ -1,6 +1,6 @@
 // the password will be generated using the following configurations
 const config = {
-  length: 25,
+  length: 25, // length power
   rounds: 10,
   // special chars to increase the password security level
   $_salt: ["!", "@", "#", "$", "%", "&", "*"],
